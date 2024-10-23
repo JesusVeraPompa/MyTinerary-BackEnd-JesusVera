@@ -44,7 +44,7 @@ URI_MONGO = "mongodb+srv://{usuarioMongo}:{contraseña}@{nombreBaseDatos}.w9lh8.
 #### - Cargamos los datos de la Tienda y luego tecleamos Control+C y luego S
 
 ```
-npm run dataTienda
+npm run dataCities
 ```
 
 ---
@@ -69,7 +69,7 @@ http://localhost:8080/api/cities/all
 #### - Consulta por Nombre
 
 ```
-http://localhost:8080/api/tiendas/id/{valorID}
+http://localhost:8080/api/cities/city/:nameValue
 ```
 
 ---
