@@ -1,9 +1,8 @@
-import City from '../../models/City.js'
-import '../../models/Itinerary.js'
+import Itinerary from '../../models/Itinerary.js'
 
-let allCity = async (req, res, next) => {
+let allItinerary = async (req, res, next) => {
     try {
-        let result = await City.find()
+        let result = await Itinerary.find()
         if (result.length > 0) {
             return res.status(200).json({
                 success: true,
@@ -24,14 +23,14 @@ let allCity = async (req, res, next) => {
     }
 }
 
-let citiesByName = async (req, res, next) => {
+let itinerariesByName = async (req, res, next) => {
     try {
         let nameValue = req.params.nameValue
         let array = {}
         if (nameValue) {
-            array.name = { $regex: '^' + nameValue, $options: 'i' }
+            array.name_itinerary = { $regex: nameValue, $options: 'i' }
         }
-        let resultado = await City.find(array).populate('itineraries', '').exec()
+        let resultado = await Itinerary.find(array)
         if (resultado.length > 0) {
             return res.status(200).json({
                 success: true,
@@ -52,10 +51,12 @@ let citiesByName = async (req, res, next) => {
     }
 }
 
-let citiesById = async (req, res, next) => {
+let itinerariesById = async (req, res, next) => {
     try {
         let valueID = req.params.id
-        let resultado = await City.findById(valueID)
+        console.log(valueID)
+        let resultado = await Itinerary.findById(valueID)
+        console.log(resultado);
         if (resultado) {
             return res.status(200).json({
                 success: true,
@@ -74,4 +75,4 @@ let citiesById = async (req, res, next) => {
     }
 }
 
-export { allCity, citiesByName, citiesById }
+export { allItinerary, itinerariesByName, itinerariesById }
