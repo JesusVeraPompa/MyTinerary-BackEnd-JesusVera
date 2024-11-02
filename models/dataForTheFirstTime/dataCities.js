@@ -22,7 +22,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Coat_of_arms_of_Moscow.svg',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Moscow%2C_Russia.svg',
-        itineraries: [],
+        itineraries: ["5ca1b6a90193271048449012", "5ca1b6a90193271048449013", "5ca1b6a90193271048449014"],
     },
     {
         name: 'Saint Petersburg',
@@ -81,12 +81,7 @@ const cities = [
         time_zone: 'China Standard Time (UTC+08:00) Beijing, Chongqing, Hong Kong SAR, Urumqi',
         ensign: 'not found',
         flag_cities: 'not found',
-        itineraries: [
-            '6725595b622dc0fb489a9018',
-            '672555199a745fe833a658d4',
-            '672555199a745fe833a658d5',
-            '672555199a745fe833a658d6',
-        ],
+        itineraries: ["5ca1b6a90193271048449010", "5ca1b6a90193271048449011"],
     },
     {
         name: 'New York',
@@ -107,7 +102,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Seal_of_New_York_City.svg',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_New_York_City.svg',
-        itineraries: ['67255f856ec12d679f3099b4'],
+        itineraries: [,"5ca1b6a90193271048449023", "5ca1b6a90193271048449024", "5ca1b6a90193271048449025", "5ca1b6a90193271048449026"],
     },
     {
         name: 'Los Angeles',
@@ -128,11 +123,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Seal_of_Los_Angeles.svg/600px-Seal_of_Los_Angeles.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Los_Angeles%2C_California.svg/800px-Flag_of_Los_Angeles%2C_California.svg.png',
-        itineraries: [
-            '67255f856ec12d679f3099b5',
-            '67255f856ec12d679f3099b6',
-            '67255f856ec12d679f3099b7',
-        ],
+        itineraries: ["5ca1b6a90193271048449027", "5ca1b6a90193271048449028", "5ca1b6a90193271048449029", "5ca1b6a90193271048449030"],
     },
     {
         name: 'Paris',
@@ -152,7 +143,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Grandes_Armes_de_Paris.svg/505px-Grandes_Armes_de_Paris.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Flag_of_Paris_with_coat_of_arms.svg/800px-Flag_of_Paris_with_coat_of_arms.svg.png',
-        itineraries: [],
+        itineraries: ["5ca1b6a90193271048449019", "5ca1b6a90193271048449020","5ca1b6a90193271048449021","5ca1b6a90193271048449022"],
     },
     {
         name: 'Marseilles',
@@ -193,7 +184,12 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Symbol_of_Tokyo_Metropolis.svg/500px-Symbol_of_Tokyo_Metropolis.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Flag_of_Tokyo_Metropolis.svg/800px-Flag_of_Tokyo_Metropolis.svg.png',
-        itineraries: ['67255f856ec12d679f3099b5', '67255f856ec12d679f3099b6'],
+        itineraries: [
+            '5ca1b6a90193271048449003',
+            '5ca1b6a90193271048449004',
+            '5ca1b6a90193271048449005',
+            '5ca1b6a90193271048449006',
+        ],
     },
     {
         name: 'Yokohama',
@@ -235,7 +231,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Coat_of_arms_of_Toronto.svg/704px-Coat_of_arms_of_Toronto.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Toronto%2C_Canada.svg/800px-Flag_of_Toronto%2C_Canada.svg.png',
-        itineraries: [],
+        itineraries: ["5ca1b6a90193271048449015", "5ca1b6a90193271048449016", "5ca1b6a90193271048449017", "5ca1b6a90193271048449018"],
     },
     {
         name: 'Montreal',
@@ -300,12 +296,7 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Escudo_de_Medellin.svg/446px-Escudo_de_Medellin.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Medell%C3%ADn.svg/763px-Flag_of_Medell%C3%ADn.svg.png',
-        itineraries: [
-            '67253039cd436665fe4b9d78',
-            '67253039cd436665fe4b9d79',
-            '672549d428f333ac4bbf4546',
-            '67254ebe28f333ac4bbf4571',
-        ],
+        itineraries: ['5ca1b6a90193271048449001', '5ca1b6a90193271048449002'],
     },
     {
         name: 'Reykjavík',
@@ -325,7 +316,11 @@ const cities = [
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Reykjavik_Coat_of_Arms.svg/116px-Reykjavik_Coat_of_Arms.svg.png',
         flag_cities:
             'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Reykjavik%2C_Iceland.svg/393px-Flag_of_Reykjavik%2C_Iceland.svg.png',
-        itineraries: [],
+        itineraries: [
+            '5ca1b6a90193271048449007',
+            '5ca1b6a90193271048449008',
+            '5ca1b6a90193271048449009',
+        ],
     },
     {
         name: 'Kopavogur',
@@ -344,7 +339,7 @@ const cities = [
         time_zone: 'Greenwich Standard Time (UTC-0) Monrovia, Reykjavik',
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/K%C3%B3pavogur_COA.svg/400px-K%C3%B3pavogur_COA.svg.png',
         flag_cities: 'not found',
-        itineraries: ['6725595b622dc0fb489a9018', '6725595b622dc0fb489a9019'],
+        itineraries: [],
     },
 ]
 

@@ -7,7 +7,7 @@
         "start": "node ./server.js",
         "dev": "nodemon ./server.js",
         "dataCities": "node ./models/dataForTheFirstTime/dataCities.js",
-        "dataItinerary": "node ./models/dataForTheFirstTime/dataItinerary.js"
+        "dataItineraries": "node ./models/dataForTheFirstTime/dataItineraries.js"
     },
     "keywords": [],
     "author": "",

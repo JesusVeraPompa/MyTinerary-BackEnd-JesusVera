@@ -27,10 +27,11 @@ npm install
 
 ---
 
-### **3 - Crear un Archivo en el directorio Raiz llamado env y agregar adentro del archivo lo siguiente**
+### **3 - Crear un Archivo en el directorio Raiz llamado .env y agregar adentro del archivo lo siguiente**
 
-(.env)
-
+```
+.env
+```
 ```
 PORT = 8080
 // quitar {} y completa los datos
@@ -41,7 +42,7 @@ URI_MONGO = "mongodb+srv://{usuarioMongo}:{contraseña}@{nombreBaseDatos}.w9lh8.
 
 ### **4 - Ejecutamos por Consola para Subir los Datos a la Base de Datos**
 
-#### - Cargamos los datos de la Tienda y luego tecleamos Control+C y luego S
+#### - Cargamos los datos de la Cities y luego tecleamos Control+C y luego S
 
 ```
 npm run dataCities
@@ -49,27 +50,20 @@ npm run dataCities
 
 ---
 
-### **5 - Ejecutamos por Consola para Iniciar el Servidor**
+### **5 - Ejecutamos por Consola para Subir los Datos a la Base de Datos**
+
+#### - Cargamos los datos de la Itinerary y luego tecleamos Control+C y luego S
 
 ```
-npm run dev
+npm run dataItineraries
 ```
 
 ---
 
-### **6 - Consultas en Postman de Cities**
-(GET)
-
-#### - Consulta de todas las Tiendas
+### **6 - Ejecutamos por Consola para Iniciar el Servidor**
 
 ```
-http://localhost:8080/api/cities/all
-```
-
-#### - Consulta por Nombre
-
-```
-http://localhost:8080/api/cities/city/:nameValue
+npm run dev
 ```
 
 ---
