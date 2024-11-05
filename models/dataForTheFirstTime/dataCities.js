@@ -17,7 +17,7 @@ const cities = [
         language: 'Russian',
         currency: 'Ruble',
         img_currency:
-            'https://cronicanumismatica.com/wp-content/uploads/2021/05/100r_97_rv-1140x512.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/5000_rubles_obverse_2023.jpg/800px-5000_rubles_obverse_2023.jpg',
         time_zone: 'Moscow time, UTC+03:00 and Europe/Moscow',
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Coat_of_arms_of_Moscow.svg',
         flag_cities:
@@ -38,7 +38,7 @@ const cities = [
         language: 'Russian',
         currency: 'Ruble',
         img_currency:
-            'https://cronicanumismatica.com/wp-content/uploads/2021/05/100r_97_rv-1140x512.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/5000_rubles_obverse_2023.jpg/800px-5000_rubles_obverse_2023.jpg',
         time_zone: 'Moscow time, UTC+03:00 and Europe/Moscow',
         ensign: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Coat_of_arms_of_Saint_Petersburg_%282003%29.svg',
         flag_cities:
@@ -256,7 +256,7 @@ const cities = [
     },
     {
         name: 'Bogota',
-        photo: 'https://www.travelers.com.co/assets/cache/uploads/destinos-colombia/1300x868/destinos-bogota-travelers-apartamentos-suites-colombia.jpeg',
+        photo: 'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9nb3RhfGVufDB8fDB8fHww',
         photo2: 'https://latinexclusive.com/sites/default/files/styles/textarea_with_background_1440x500/public/bogota_destination.jpg?itok=I1asoEt9',
         country: 'Colombia',
         flag_country:
