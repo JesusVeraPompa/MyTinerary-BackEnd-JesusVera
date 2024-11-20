@@ -12,13 +12,9 @@ import passport from '../middlewares/passport.js'
 const routerItinerary = Router()
 
 // readItinerary
-routerItinerary.get('/all', passport.authenticate('jwt', { session: false }), allItinerary)
-routerItinerary.get(
-    '/name/:nameValue',
-    passport.authenticate('jwt', { session: false }),
-    itinerariesByName
-)
-routerItinerary.get('/id/:id', passport.authenticate('jwt', { session: false }), itinerariesById)
+routerItinerary.get('/all', allItinerary)
+routerItinerary.get('/name/:nameValue', itinerariesByName)
+routerItinerary.get('/id/:id', itinerariesById)
 
 // createItinerary
 routerItinerary.post('/create', passport.authenticate('jwt', { session: false }), create)
