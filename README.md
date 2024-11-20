@@ -6,8 +6,8 @@
 -   [2 - Ejecutamos por Consola para Instalar las Dependencias](#2---Ejecutamos-por-Consola-para-Instalar-las-Dependencias)
 -   [3 - Crear un Archivo en el directorio Raiz llamado env y agregar adentro del archivo lo siguiente](#3---Crear-un-Archivo-en-el-directorio-Raiz-llamado-env-y-agregar-adentro-del-archivo-lo-siguiente)
 -   [4 - Ejecutamos por Consola para Subir los Datos a la Base de Datos](#4---Ejecutamos-por-Consola-para-Subir-los-Datos-a-la-Base-de-Datos)
--   [5 - Ejecutamos por Consola para Iniciar el Servidor](#5---Ejecutamos-por-Consola-para-Iniciar-el-Servidor)
--   [6 - Consultas en Postman de Cities](#6---Consultas-en-Postman-de-Cities)
+-   [7 - Ejecutamos por Consola para Iniciar el Servidor](#7---Ejecutamos-por-Consola-para-Iniciar-el-Servidor)
+
 
 ---
 
@@ -36,6 +36,10 @@ npm install
 PORT = 8080
 // quitar {} y completa los datos
 URI_MONGO = "mongodb+srv://{usuarioMongo}:{contraseña}@{nombreBaseDatos}.w9lh8.mongodb.net/my_tinerary"
+SECRET = "{Indica una palabra secreta}"
+GOOGLE_CLIENT_ID ="{ID de cliente de Google}"
+GOOGLE_CLIENT_SECRET ="{Secreto del cliente de Google}"
+GOOGLE_URI_BACK="/api/auth/signIn/google/callback"
 ```
 
 ---
@@ -60,7 +64,17 @@ npm run dataItineraries
 
 ---
 
-### **6 - Ejecutamos por Consola para Iniciar el Servidor**
+### **6 - Ejecutamos por Consola para Subir los Datos a la Base de Datos**
+
+#### - Cargamos los datos los Users y luego tecleamos Control+C y luego S
+
+```
+npm run dataUsers
+```
+
+---
+
+### **7 - Ejecutamos por Consola para Iniciar el Servidor**
 
 ```
 npm run dev
