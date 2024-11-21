@@ -71,4 +71,15 @@ let userByName = async (req, res, next) => {
     }
 }
 
-export { allUser, userByID, userByName }
+const userExists = async (req, res, next) => {
+    try {
+        return res.status(200).json({
+            success: true,
+            response: req.user,
+        })
+    } catch (error) {
+        next(error)
+    }
+}
+
+export { allUser, userByID, userByName, userExists }

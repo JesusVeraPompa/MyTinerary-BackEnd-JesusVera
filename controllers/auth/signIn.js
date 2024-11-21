@@ -8,11 +8,14 @@ export default async(req,res,next) => {
             {online: true}
         )
         console.log(req);
+        console.log(req.user.name);
         
         return res.status(200).json({
             success: true,
             message : "signed In",
             user:{
+                name: req.user.name,
+                surname: req.user.surname,
                 email: req.user.email,
                 role: req.user.role,
                 photo: req.user.photo
